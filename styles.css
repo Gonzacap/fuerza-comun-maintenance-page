@@ -31,6 +31,10 @@
     --color-instagram: #e1306c;
     --color-facebook: #1877f2;
     --color-catalog: #ef4444;
+
+    /* Others */
+    --soft: rgba(244, 240, 232, 0.76);
+    --line: rgba(244, 240, 232, 0.18);
 }
 
 /* Modern CSS Reset */
@@ -154,20 +158,29 @@ body, html {
     margin-bottom: 12px;
 }
 
-.status-tag {
+.status-conteiner {
     display: inline-flex;
     align-items: center;
     gap: 8px;
-    background: var(--accent-bg-alpha);
-    border: 1px solid var(--accent-border-alpha);
-    color: #ff3b45;
+    /* background: var(--accent-bg-alpha); */
+    /* border: 1px solid var(--accent-border-alpha); */
+    /* color: #ff3b45; */
     padding: 6px 14px;
-    border-radius: 30px;
-    font-size: 0.85rem;
+    /* border-radius: 30px; */
+    font-size: 0.75rem;
     font-weight: 600;
     letter-spacing: 0.5px;
     text-transform: uppercase;
     margin-bottom: 20px;
+}
+
+.status {
+  min-height: 50px;
+  display: inline-flex;
+  align-items: center;
+  color: var(--soft);
+  font-size: 0.95rem;
+  font-weight: 800;
 }
 
 .pulse-dot {
