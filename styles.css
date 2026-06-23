@@ -321,6 +321,10 @@ body, html {
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
 }
 
+a span {
+    text-align: left;
+}
+
 /* Footer styling */
 .footer {
     font-size: 0.8rem;
