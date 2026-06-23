@@ -78,7 +78,7 @@ body, html {
     height: 100vh;
     z-index: -2;
     /* background-image: linear-gradient(135deg, var(--accent-dark) 0%, var(--text-dark) 100%); */
-    background: var(--accent-primary);
+    background: #ff1a25; /*var(--accent-primary);*/
     /* background: radial-gradient(circle, rgba(255, 26, 36, 1) 0%, rgba(161, 161, 170, 1) 100%); */
 }
 
@@ -91,6 +91,21 @@ body, html {
     /* background: radial-gradient(circle at center, rgba(10, 10, 12, 0.4) 0%, rgba(6, 6, 8, 0.9) 100%); */
     background: radial-gradient(circle at center, rgba(161, 161, 170, 0.4) 0%, rgba(161, 161, 170, 0) 100%);
     z-index: -1;
+}
+
+.bg-image {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: -3;
+    background-image: url('assets/background-desktop.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: background-image 0.5s ease;
+    opacity: 0.75; /* Ajustá este valor entre 0 y 1 para la transparencia */       
 }
 
 /* Main Container Layout */
