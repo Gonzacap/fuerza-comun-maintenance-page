@@ -388,3 +388,9 @@ a span {
         font-size: 0.95rem;
     }
 }
+
+ @media (max-width: 768px) {
+        .bg-image {
+            background-image: url('assets/background-mobile.png');
+        }
+}
